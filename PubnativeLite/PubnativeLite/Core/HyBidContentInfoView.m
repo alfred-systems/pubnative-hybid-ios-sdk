@@ -61,7 +61,7 @@ NSTimeInterval const PNLiteContentViewClosingTime = 3.0f;
     self = [super init];
     if (self) {
         [self setFrame:CGRectMake(0, 0, PNLiteContentViewWidth, PNLiteContentViewHeight)];
-        self.backgroundColor = [UIColor colorWithWhite:1 alpha:1];
+        self.backgroundColor = [UIColor colorWithWhite:1 alpha:0];
         self.clipsToBounds = YES;
         self.layer.cornerRadius = 2.f;
         
