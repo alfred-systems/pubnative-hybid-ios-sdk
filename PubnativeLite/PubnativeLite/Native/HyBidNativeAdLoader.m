@@ -63,6 +63,13 @@
 }
 
 - (void)invokeDidLoadWithNativeAd:(HyBidNativeAd *)nativeAd {
+    if (nativeAd.iconUrl == nil || nativeAd.bannerUrl == nil) {
+        [self invokeDidFailWithError:[NSError errorWithDomain:@"Misconfiguration of the Native Ad. (alfred)"
+                                                         code:0
+                                                     userInfo:nil]];
+        return;
+    }
+    
     if (self.delegate && [self.delegate respondsToSelector:@selector(nativeLoaderDidLoadWithNativeAd:)]) {
         [self.delegate nativeLoaderDidLoadWithNativeAd:nativeAd];
     }
