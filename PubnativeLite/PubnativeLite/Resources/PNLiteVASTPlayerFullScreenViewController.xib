@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -45,7 +44,6 @@
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMb-Wf-Jhi">
                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                    <viewLayoutGuide key="safeArea" id="pCL-Jx-fZy"/>
                     <accessibility key="accessibilityConfiguration" identifier="muteButton" label="Mute Button"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="Rqp-Mn-hnY"/>
@@ -98,25 +96,24 @@
                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </progressView>
             </subviews>
-            <viewLayoutGuide key="safeArea" id="pjM-1K-mT8"/>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             <gestureRecognizers/>
             <constraints>
-                <constraint firstItem="pjM-1K-mT8" firstAttribute="trailing" secondItem="Jiw-2I-70B" secondAttribute="trailing" id="0mH-9B-A2N"/>
-                <constraint firstItem="pjM-1K-mT8" firstAttribute="top" secondItem="VMb-Wf-Jhi" secondAttribute="top" id="7bQ-vz-blX"/>
-                <constraint firstItem="pjM-1K-mT8" firstAttribute="bottom" secondItem="a1F-up-quM" secondAttribute="bottom" id="7ik-2y-HgY"/>
-                <constraint firstItem="EyD-B7-zGY" firstAttribute="leading" secondItem="pjM-1K-mT8" secondAttribute="leading" id="B4a-Nm-5pA"/>
-                <constraint firstItem="pjM-1K-mT8" firstAttribute="trailing" secondItem="NR4-LJ-tZs" secondAttribute="trailing" constant="10" id="Gdo-V7-P5o"/>
-                <constraint firstItem="NR4-LJ-tZs" firstAttribute="top" secondItem="pjM-1K-mT8" secondAttribute="top" constant="10" id="HH3-zi-ZtI"/>
-                <constraint firstItem="a1F-up-quM" firstAttribute="trailing" secondItem="pjM-1K-mT8" secondAttribute="trailing" id="KHV-1q-9pF"/>
-                <constraint firstItem="a1F-up-quM" firstAttribute="leading" secondItem="pjM-1K-mT8" secondAttribute="leading" id="PCi-Rw-6h1"/>
-                <constraint firstItem="pjM-1K-mT8" firstAttribute="trailing" secondItem="xsk-q6-jz9" secondAttribute="trailing" id="VqZ-0i-V6i"/>
+                <constraint firstAttribute="trailing" secondItem="Jiw-2I-70B" secondAttribute="trailing" id="0mH-9B-A2N"/>
+                <constraint firstAttribute="top" secondItem="VMb-Wf-Jhi" secondAttribute="top" id="7bQ-vz-blX"/>
+                <constraint firstAttribute="bottom" secondItem="a1F-up-quM" secondAttribute="bottom" id="7ik-2y-HgY"/>
+                <constraint firstItem="EyD-B7-zGY" firstAttribute="leading" secondItem="CWD-dp-WWe" secondAttribute="leading" id="B4a-Nm-5pA"/>
+                <constraint firstAttribute="trailing" secondItem="NR4-LJ-tZs" secondAttribute="trailing" constant="10" id="Gdo-V7-P5o"/>
+                <constraint firstItem="NR4-LJ-tZs" firstAttribute="top" secondItem="CWD-dp-WWe" secondAttribute="top" constant="10" id="HH3-zi-ZtI"/>
+                <constraint firstItem="a1F-up-quM" firstAttribute="trailing" secondItem="CWD-dp-WWe" secondAttribute="trailing" id="KHV-1q-9pF"/>
+                <constraint firstItem="a1F-up-quM" firstAttribute="leading" secondItem="CWD-dp-WWe" secondAttribute="leading" id="PCi-Rw-6h1"/>
+                <constraint firstAttribute="trailing" secondItem="xsk-q6-jz9" secondAttribute="trailing" id="VqZ-0i-V6i"/>
                 <constraint firstItem="sBQ-GN-9Mt" firstAttribute="centerX" secondItem="CWD-dp-WWe" secondAttribute="centerX" id="bUX-hK-Noz"/>
                 <constraint firstItem="sBQ-GN-9Mt" firstAttribute="centerY" secondItem="CWD-dp-WWe" secondAttribute="centerY" id="nBg-k3-iEi"/>
-                <constraint firstItem="VMb-Wf-Jhi" firstAttribute="leading" secondItem="pjM-1K-mT8" secondAttribute="leading" id="nCr-Xc-euC"/>
-                <constraint firstItem="pjM-1K-mT8" firstAttribute="bottom" secondItem="Jiw-2I-70B" secondAttribute="bottom" id="nm2-Uc-bVw"/>
-                <constraint firstItem="pjM-1K-mT8" firstAttribute="top" secondItem="xsk-q6-jz9" secondAttribute="top" id="utd-gD-lxl"/>
-                <constraint firstItem="pjM-1K-mT8" firstAttribute="top" secondItem="EyD-B7-zGY" secondAttribute="top" id="yEK-Ua-FWV"/>
+                <constraint firstItem="VMb-Wf-Jhi" firstAttribute="leading" secondItem="CWD-dp-WWe" secondAttribute="leading" id="nCr-Xc-euC"/>
+                <constraint firstAttribute="bottom" secondItem="Jiw-2I-70B" secondAttribute="bottom" id="nm2-Uc-bVw"/>
+                <constraint firstAttribute="top" secondItem="xsk-q6-jz9" secondAttribute="top" id="utd-gD-lxl"/>
+                <constraint firstAttribute="top" secondItem="EyD-B7-zGY" secondAttribute="top" id="yEK-Ua-FWV"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
